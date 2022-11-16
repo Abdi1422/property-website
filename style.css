@@ -4,8 +4,106 @@
   box-sizing: border-box;
 }
 
-.body {
-  background: url("background.png") no-repeat;
-  background-size: 100%;
+.background-image {
+  background-image: url("images/background.png");
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar .header {
+  color: white;
+  font-size: 50px;
+}
+.navbar .btn {
+  height: 20%;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}
+.navbar .btn:focus, .navbar .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.top {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+main, section {
+  height: 100vh;
+  color: black;
+}
+
+img {
+  height: 12rem;
+  width: 25rem;
+}
+
+.sale-div, .rent-div {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.toplink {
+  color: black;
+  text-decoration: none;
+}
+.toplink:hover {
+  color: black;
+}
+
+.p {
+  color: white;
+  font-size: 30px;
+  border: 1px bla;
+  margin: 0px;
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 15px;
+}
+.border h1 {
+  margin-bottom: 0px;
+}
+.border p {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.border div {
+  font-family: "Montserrat", sans-serif;
+}
+.border .price {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.for-rent, .for-sale {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.otherpopup {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
