@@ -34,7 +34,6 @@ contactbtn.addEventListener("click",function(){
     time.innerText="Monday to Friday, 9am to 5pm"
     twopopup.append(more)
     more.innerText="* Calls to 0800 numbers are free when calling from a UK landline or personal mobile but charges may apply when calling from abroad. Please be advised that we may record calls for training and monitoring purposes."
-    twopopup.classList.toggle("hidden")
 })
 
 let email=document.createElement("h1")
